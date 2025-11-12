@@ -55,7 +55,7 @@ ${PROJECT_SOURCE_DIR}/include
 ${PROJECT_SOURCE_DIR}/include/CameraModels
 ${EIGEN3_INCLUDE_DIR}
 ${Pangolin_INCLUDE_DIRS}
-Thirdparty/boost_1_67_0
+Thirdparty/boost_1_78_0
 )
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
@@ -125,7 +125,7 @@ ${EIGEN3_LIBS}
 ${Pangolin_LIBRARIES}
 ${PROJECT_SOURCE_DIR}/Thirdparty/DBoW2/lib/Release/DBoW2.lib
 ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/build/Release/g2o.lib
-${PROJECT_SOURCE_DIR}/Thirdparty/boost_1_67_0/lib64-msvc-14.1/libboost_serialization-vc141-mt-s-x64-1_67.lib
+${PROJECT_SOURCE_DIR}/Thirdparty/boost_1_78_0/stage/lib/libboost_serialization-vc143-mt-s-x64-1_78.lib
 )
 
 # Build examples
